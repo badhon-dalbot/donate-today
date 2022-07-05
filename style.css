@@ -51,12 +51,23 @@
     font-size: 18px;
     margin: 30px 100px;
 }
+
 .container {
     width: 90%;
     margin: auto;
     margin-bottom: 80px;
     display: flex;
 }
+.donate {
+    width: 60%;
+}
+.box {
+    background-color: #75756e;
+    width: 16%;
+    margin: auto;
+    height: 100px;
+}
+
 .card {
     width: 31%;
     margin: auto;
@@ -80,3 +91,13 @@
 .card-text p {
 
 }
+footer {
+    background-color: black;
+    text-align: center;
+    color: #ffffff;
+    height: 20vh;
+}
+footer h1 {
+    padding: 30px 0;
+}
+
