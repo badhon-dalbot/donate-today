@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#banner {
+    height: 100vh;
+    background-image: url(images/donation-cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner-container {
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+.banner-container h1 {
+    padding: 100px 200px;
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+
+}
+.btn {
+    padding: 10px 40px;
+    background-color: tomato;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
