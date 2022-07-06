@@ -9,31 +9,35 @@
     background-position: center;
     background-size: cover;
 }
-.banner-container {
-    width: 70%;
-    margin: auto;
-    position: relative;
-}
+
 .banner-container h1 {
-    padding: 100px 200px;
-    text-align: center;
-    font-size: 50px;
+    padding: 100px 350px 20px 350px;
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
     color: #ffffff;
+    align-items: center;
+    text-align: center;
 
 }
+.banner-container p {
+    text-align: center;
+    font-size: 22px;
+    color: #F0EBE3;
+    margin-bottom: 30px;
+}
+.button-container {
+    width: 12%;
+    margin: auto;
+}
 .btn {
-    padding: 10px 40px;
-    background-color: tomato;
+    padding: 18px 26px;
+    background-color: #EB4747;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 18px;
     border: none;
     border-radius: 6px;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
-    /* position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
 }
 /* donate-plan */
 #donate-plan {
@@ -46,14 +50,15 @@
 }
 .text h1 {
     font-size: 40px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     margin-top: 100px;
 }
 .text p {
     font-size: 18px;
-    margin: 30px 100px;
+    margin: 40px 0;
     font-family: 'Roboto', sans-serif;
+    color: #1C0A00;
 }
 
 .container {
@@ -64,6 +69,19 @@
 }
 .donate {
     width: 60%;
+}
+#donate-today hr {
+    width: 70%;
+    height: 2px;
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+.taka {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #D0C9C0;
 }
 .box {
     background-color: #F1EEE9;
@@ -78,11 +96,12 @@
 .box h1 {
     text-align: center;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
 }
 #box-2 {
-    border: solid 2px #EB5353;
-    background-color: #F9CEEE;
-    color: #EB5353;
+    border: solid 2px #EB4747;
+    background-color: #FFC4C4;
+    color: #EB4747;
 }
 .card {
     width: 31%;
@@ -109,28 +128,53 @@
 }
 .card-text h2 {
     margin: 26px 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 .card-text p {
     font-family: 'Roboto', sans-serif;
+}
+#news-section {
+    background-color: #C9BBCF;
+}
+.news-text {
+    width: 50%;
+    margin: 20px;
+}
+.news-text h1 {
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+.news-text p {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 0;
+}
+.image {
+    width: 50%;
+}
+.image img {
+    width: 100%;
 }
 form {
     width: 60%;
     margin: auto;
     background-color: bisque;
-    padding: 40px 0;
+    padding: 60px 0;
 }
 .flex-form {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 input {
-    padding: 11px 20px;
-    background-color: #839AA8;
+    padding: 19px 70px 19px 16px;
+    background-color: #DFDFDE;
     border: none;
     border-radius: 6px 0 0 6px;
 
+}
+::placeholder {
+    font-size: 16px;
+    color: #827397;
 }
 .flex-form button {
     border-radius: 0 6px 6px 0;
@@ -143,5 +187,11 @@ footer {
     margin-top: 100px;
 }
 footer h1 {
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
     padding: 30px 0;
+    color: #F94C66;
+}
+footer h4 {
+    font-family: 'Roboto', sans-serif;
 }
