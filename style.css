@@ -28,10 +28,12 @@
     font-size: 16px;
     border: none;
     border-radius: 6px;
-    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    /* position: absolute;
     top: 100%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 }
 /* donate-plan */
 #donate-plan {
@@ -44,12 +46,14 @@
 }
 .text h1 {
     font-size: 40px;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     margin-top: 100px;
 }
 .text p {
     font-size: 18px;
     margin: 30px 100px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -62,17 +66,35 @@
     width: 60%;
 }
 .box {
-    background-color: #75756e;
+    background-color: #F1EEE9;
     width: 16%;
     margin: auto;
     height: 100px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+.box h1 {
+    text-align: center;
+    align-items: center;
+}
+#box-2 {
+    border: solid 2px #EB5353;
+    background-color: #F9CEEE;
+    color: #EB5353;
+}
 .card {
     width: 31%;
     margin: auto;
-    background-color: #75756e;
+    background-color: #DAEAF1;
     border-radius: 8px;
+}
+#card-2 {
+    background-color: #FFE6E6;
+}
+#card-3 {
+    background-color: #F6C6EA;
 }
 .card-img {
     width: 10%;
@@ -87,17 +109,39 @@
 }
 .card-text h2 {
     margin: 26px 0;
+    font-family: 'Roboto', sans-serif;
 }
 .card-text p {
+    font-family: 'Roboto', sans-serif;
+}
+form {
+    width: 60%;
+    margin: auto;
+    background-color: bisque;
+    padding: 40px 0;
+}
+.flex-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    padding: 11px 20px;
+    background-color: #839AA8;
+    border: none;
+    border-radius: 6px 0 0 6px;
 
+}
+.flex-form button {
+    border-radius: 0 6px 6px 0;
 }
 footer {
     background-color: black;
     text-align: center;
     color: #ffffff;
     height: 20vh;
+    margin-top: 100px;
 }
 footer h1 {
     padding: 30px 0;
 }
-
